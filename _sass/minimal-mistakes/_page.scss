@@ -2,6 +2,11 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+.utterances {
+    max-width: 100% !important;
+}
+  
+
 #main {
   @include clearfix;
   margin-left: auto;
@@ -536,10 +541,6 @@ body {
   margin-bottom: 10px;
   font-size: $type-size-6;
   text-transform: uppercase;
-}
-
-.utterances {
-  max-width: 100% !important;
 }
 
 /*
