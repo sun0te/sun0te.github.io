@@ -19,6 +19,10 @@
   }
 }
 
+.utterances {
+  max-width: 100% !important;
+}  
+
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -410,10 +414,6 @@ body {
 /*
    Comments
    ========================================================================== */
-
-.utterances {
-    max-width: 100% !important;
-}  
 
 .page__comments {
   float: left;
