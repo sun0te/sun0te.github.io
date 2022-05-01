@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "ko-KR"
 title                    : "Taking Sun0te"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title_separator          : "|"
+subtitle                 : "Simplicity is the soul of efficiency." # site tagline that appears below site title in masthead
 name                     : "Sun0te"
 description              : "Sun0te 연대기"
 url                      : "https://sun0te.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
