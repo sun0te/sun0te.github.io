@@ -2,10 +2,6 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
-.utterances {
-    max-width: 100% !important;
-}
-
 #main {
   @include clearfix;
   margin-left: auto;
@@ -566,4 +562,8 @@ body {
       padding-right: 0;
     }
   }
+}
+
+.utterances {
+  max-width: 100% !important;
 }
