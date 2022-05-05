@@ -7,5 +7,5 @@ sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Certificate-EIP %}
+{% assign posts = site.categories.Certificate EIP %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

@@ -49,7 +49,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Data_structure" %}
-                        <li><a href="/categories/data_structure" class="">자료구조 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/datastructure" class="">자료구조 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>            
@@ -71,28 +71,28 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Certificate-EIP" %}
-                        <li><a href="/categories/certificate-EIP" class="">정보처리기사 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/certificate EIP" class="">정보처리기사 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Certificate-network" %}
-                        <li><a href="/categories/certificate-network" class="">네트워크 마스터 2급 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/certificate network" class="">네트워크 마스터 2급 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Certificate-aws" %}
-                        <li><a href="/categories/certificate-aws" class="">AWS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/certificate aws" class="">AWS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Certificate-linux" %}
-                        <li><a href="/categories/certificate-linux" class="">리눅스마스터 2급 ({{category[1].size}})</a></li>
+                        <li><a href="/categories/certificate linux" class="">리눅스마스터 2급 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
