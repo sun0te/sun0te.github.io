@@ -505,6 +505,10 @@ body {
   }
 }
 
+/*==========comments size ===========*/
+.utterances {
+  max-width: 100% !important;
+}
 
 /*
    Related
@@ -562,9 +566,4 @@ body {
       padding-right: 0;
     }
   }
-}
-
-/*==========comments===========*/
-.utterances {
-  max-width: 100% !important;
 }
