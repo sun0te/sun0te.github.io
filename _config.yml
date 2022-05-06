@@ -103,15 +103,15 @@ author:
   name             : "Sun0te"
   avatar           : "images/profile/sarang_face.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Pain is temporary. <br>Quitting lasts forever."
-  location         : "Republic of Korea"
+  #location         : "Republic of Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jin1123a@email.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://sun0te.github.io"
+    #- label: "Website"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://sun0te.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sun0te/sun0te.github.io"
@@ -231,17 +231,18 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+# 주석처리-0506
 # https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layouts:
+#    category: archive-taxonomy
+#    tag: archive-taxonomy
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
 
 
 # HTML Compression
