@@ -1,5 +1,5 @@
 ---
-title: "JAVA 프로그래밍"
+title: "JAVA"
 layout: archive
 permalink: categories/java
 author_profile: true

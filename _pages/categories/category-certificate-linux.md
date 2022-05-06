@@ -1,5 +1,5 @@
 ---
-title: "리눅스마스터 2급"
+title: "리눅스마스터"
 layout: archive
 permalink: categories/certificate-linux
 author_profile: true

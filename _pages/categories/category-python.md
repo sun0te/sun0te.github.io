@@ -1,5 +1,5 @@
 ---
-title: "Python 프로그래밍"
+title: "Python"
 layout: archive
 permalink: categories/python
 author_profile: true
