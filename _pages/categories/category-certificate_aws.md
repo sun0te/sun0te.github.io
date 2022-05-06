@@ -1,11 +1,11 @@
 ---
 title: "AWS"
 layout: archive
-permalink: categories/certificate-aws
+permalink: categories/certificate_aws
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.Certificate aws %}
+{% assign posts = site.categories.Certificate_aws %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
