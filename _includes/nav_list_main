@@ -60,7 +60,7 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "OS" %}
+                    {% if category[0] == "Os" %}
                         <li><a href="/categories/os" class="">운영체제 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
