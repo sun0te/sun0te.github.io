@@ -30,7 +30,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        </li>
         <span class="nav__sub-title">Coding Test</span>
             <ul>
                 {% for category in site.categories %}
@@ -39,7 +38,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        </li>
         <span class="nav__sub-title">CS</span>
             <ul>
                 {% for category in site.categories %}
@@ -69,7 +67,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        </li>
         <span class="nav__sub-title">자격증</span>
             <ul>
                 {% for category in site.categories %}
