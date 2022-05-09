@@ -71,9 +71,9 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1.2;
-  font-family: $sans-serif-narrow;
+  font-family: $myfont2;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
-  //font-weight: bold;
+  font-weight: bold;
   //color: rgb(91, 124, 39);
   //color: mix(#fff, $primary-color, 40%);
 
@@ -432,7 +432,7 @@ body {
   @include breakpoint($large) {
     grid-template-columns: repeat(3, 1fr);
   }
-
+//카테고리 페이지의 맨위 카테고리 키워드들
   a {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -443,7 +443,9 @@ body {
     justify-content: space-between;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid $border-color;
+    border-bottom: 2px solid $border-color;
+    font-family: $myfont2;
+    color: mix(#fff, $primary-color, 60%);
   }
 }
 
@@ -451,7 +453,7 @@ body {
   display: block;
   clear: both;
   color: $muted-text-color;
-  font-size: 0.6em;
+  font-size: 0.6em; //0.6em;
   text-transform: uppercase;
   text-align: right;
   text-decoration: none;
@@ -587,7 +589,7 @@ body {
 }
 
 .page__related-title {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: $type-size-6;
   text-transform: uppercase;
 }

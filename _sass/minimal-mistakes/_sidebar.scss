@@ -172,18 +172,28 @@
     margin-bottom: 10px;
   }
 }
+//프로필 name font
 .sidebar .author__name {
-  font-family: $sans-serif;
+  font-family: $myfont2;
   font-size: $type-size-4;
 }
 
 .author__bio {
   margin: 0;
+  font-family: $cursive;
+  font-size: $type-size-4;
 
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
   }
+  p {
+    font-family: $cursive;
+    margin-top: 1.6px;
+    margin-bottom: 3px;
+  }
+
+
 }
 
 .author__urls-wrapper {
