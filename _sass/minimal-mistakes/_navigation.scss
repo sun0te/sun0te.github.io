@@ -436,6 +436,15 @@
     }
   }
 }
+
+//전체 글 수 폰트
+.list_all {
+  font-size: $type-size-6;
+  font-family: $myfont;
+
+}
+
+
 //홈 왼쪽 카테고리 목록 
 .nav__list .nav__items {
   margin: 0;
