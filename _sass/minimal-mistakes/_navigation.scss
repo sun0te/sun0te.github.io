@@ -507,7 +507,7 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
+  font-family: $myfont3;
   font-weight: bold;
   font-size: $type-size-4;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
@@ -518,19 +518,20 @@
 /*
      Table of contents navigation
      ========================================================================== */
-
+//포스팅 목차 나열바
 .toc {
-  font-family: $myfont;
+  font-family: $myfont_toc;
   color: $gray;
   background-color: $background-color;
-  border: 1px solid $border-color;
+  font-size: $type-size-5;
+  //border: 1px solid $border-color;
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
 
   .nav__title {
     color: rgb(0, 0, 0);
-    font-size: $type-size-6;
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -550,7 +551,7 @@
   font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {

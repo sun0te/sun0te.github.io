@@ -67,16 +67,22 @@ body {
     }
   }
 }
-
+//카테고리 페이지의 카테고리 타이틀 디자인, 게시글 제목 ex) JAVA, Network
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: 1.2;
+  font-family: $sans-serif-narrow;
+  color: mix(rgb(207, 136, 66),$primary-color,35%);
+  //font-weight: bold;
+  //color: rgb(91, 124, 39);
+  //color: mix(#fff, $primary-color, 40%);
 
-  a {
+ /*
+   a {
     color: $text-color;
     text-decoration: none;
   }
-
+*/
   & + .page__meta {
     margin-top: -0.5em;
   }
@@ -277,7 +283,7 @@ body {
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   text-transform: uppercase;
 }
 
@@ -317,15 +323,38 @@ body {
    ========================================================================== */
 
 .page__taxonomy {
+  margin-top: -10px;
+  .sep {
+    display: inline;
+  }
+  /* 원본
   .sep {
     display: none;
   }
-
+  */
   strong {
     margin-right: 10px;
   }
 }
+//왼쪽카테고리 클릭시 나열되는 테크 디자인
+.page__taxonomy-item-tag {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid $background-color;
+  border-radius: $border-radius;
+  background-color: #4D5357;
+  font-family: $cursive;
+  color: $primary-color;
 
+  &:hover {
+    text-decoration: none;
+    color: mix(#00adb5, $text-color, 40%); /* 커서 댈 때 색깔 */
+  }
+
+/*
 .page__taxonomy-item {
   display: inline-block;
   margin-right: 5px;
@@ -338,6 +367,25 @@ body {
   &:hover {
     text-decoration: none;
     color: $link-color-hover;
+  }
+  */
+}
+//왼쪽카테고리 클릭시 나열되는 카테고리 디자인
+.page__taxonomy-item-category {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid $background-color;
+  border-radius: $border-radius;
+  background-color: mix(#fff, #4D5357, 10%);
+  font-family: $cursive;
+  color: mix(#fff, $primary-color, 2%);;
+
+  &:hover {
+    text-decoration: none;
+    color: mix(#00adb5, $text-color, 40%); /* 커서 댈 때 색깔 */
   }
 }
 
