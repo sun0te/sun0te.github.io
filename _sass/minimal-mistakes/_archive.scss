@@ -30,13 +30,15 @@
     position: static;
   }
 }
-
+//홈 화면 최근 포스트 font 
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
   /*font-size: $type-size-5;*/
   font-size: $type-size-3;
-  color: $muted-text-color;
+  color: mix(rgb(207, 136, 66),$primary-color,35%);
+  font-family: $myfont3;
+  //color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -46,7 +48,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $myfont2;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
