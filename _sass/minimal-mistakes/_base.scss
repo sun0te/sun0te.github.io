@@ -63,10 +63,34 @@ small,
   font-size: $type-size-6;
 }
 
-p {
-  margin-bottom: 1.3em;
+//추가
+summary {
+  cursor:pointer;
+  color:rgb(255, 249, 194);
 }
 
+
+p {
+  margin-bottom: 1.0em; //1.3em;
+}
+
+u,
+ins {
+  text-decoration: none;
+  border-bottom: 1px solid $primary-color;
+  padding-bottom: 4.5px;
+  a {
+    color: inherit;
+  }
+}
+
+/* devinlife comment: 구글 애드 센스 아래 바 레이아웃 삭제
+ https://github.com/mmistakes/minimal-mistakes/issues/306 */
+ ins.adsbygoogle {
+  border-bottom: none !important;
+}
+
+/* 원본
 u,
 ins {
   text-decoration: none;
@@ -75,6 +99,7 @@ ins {
     color: inherit;
   }
 }
+*/
 
 del a {
   color: inherit;
