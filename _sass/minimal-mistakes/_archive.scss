@@ -30,7 +30,7 @@
     position: static;
   }
 }
-//홈 화면 최근 포스트 font 
+//홈 화면 "최근 포스트" font 
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
@@ -45,7 +45,7 @@
     margin-top: 0.5em;
   }
 }
-
+//홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $myfont2;
@@ -107,7 +107,7 @@
   padding: 2px 5px;
   color: #fff;
   font-family: $caption-font-family;
-  font-size: $type-size-8;
+  font-size: $type-size-7;
   background: #000;
   text-align: right;
   z-index: 5;
