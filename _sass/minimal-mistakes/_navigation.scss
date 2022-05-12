@@ -559,7 +559,7 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-family: $myfont3;
+  font-family: $myfont_toc;
   font-size: $type-size-6;
 
   @include breakpoint($large) {
@@ -570,7 +570,7 @@
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
-    font-weight: bold;
+    //font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
