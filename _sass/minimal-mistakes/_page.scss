@@ -445,9 +445,9 @@ body {
     color: inherit;
     text-decoration: none;
     border-bottom: 2px solid $border-color;
-    font-family: $myfont2;
+    font-family: $myfont_go;
     font-size: $type-size-4;
-    color: mix(#fff, $primary-color, 60%);
+    color: #fff
   }
 }
 

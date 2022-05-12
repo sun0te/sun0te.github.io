@@ -35,9 +35,9 @@
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
   /*font-size: $type-size-5;*/
-  font-size: $type-size-3;
+  font-size: $type-size-4;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
-  font-family: $myfont3;
+  font-family: $myfont_ga;
   //color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -48,11 +48,11 @@
 //홈페이지 작성 글 제목들
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $myfont2;
+  font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 
   a[rel="permalink"]::before {
     content: '';

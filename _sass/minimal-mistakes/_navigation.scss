@@ -450,6 +450,8 @@
   margin: 0;
   font-size: 1.25rem;
   font-family: $sans-serif;
+ //font-weight: bold;
+
 
   img { // 방문자수 이미지 크기 조절 
     width: auto; height: auto;
@@ -461,7 +463,7 @@
   a {
     color: inherit;
     font-size: $type-size-4;
-    font-family: $myfont2;
+    font-family: $sans-serif-narrow;
     color: mix(#fff,$primary-color,80%);
 
     &:hover {
@@ -516,9 +518,9 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $myfont3;
+  font-family: $sans-serif-narrow;
   font-weight: bold;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
   color: mix(rgb(207, 136, 66),$primary-color,35%);
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -557,7 +559,8 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-5;
+  font-family: $myfont3;
+  font-size: $type-size-6;
 
   @include breakpoint($large) {
     font-size: $type-size-6;
