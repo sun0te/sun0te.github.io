@@ -98,10 +98,13 @@
                 {% endfor %}
             </ul>
         </li>
-
-              <!--전체 글 수-->
-    <li>
+            <li> 
+                <span> 
+                    <br>
+                </span> 
+            </li>
+        <li> <!--전체 글 수-->
         📝 <span class="list_all">전체 글 수 {{sum}} 개</span> 
-    </li>
+        </li>
   </ul>
 </nav>
