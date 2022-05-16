@@ -5,8 +5,8 @@ excerpt: "범위를 표로 정리"
 toc: true
 toc_sticky: true
 date: 2022-05-13
-categories: [Network_master2]
-tag: [networkmaster]
+categories: [Certificate_network_2]
+tag: [network_advisor]
 author_profile: false
 sidebar:
     nav: "docs"

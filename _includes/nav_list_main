@@ -78,8 +78,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Network_master2" %}
-                        <li><a href="/categories/network_master2" class="">네트워크 마스터 2급 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Certificate_network_2" %}
+                        <li><a href="/categories/certificate_network_2" class="">네트워크관리사 2급 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
