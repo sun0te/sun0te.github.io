@@ -1,5 +1,5 @@
 ---
-title: "HTML"
+title: "HTML/CSS"
 layout: archive
 permalink: categories/html_css
 author_profile: true
