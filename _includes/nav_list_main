@@ -28,15 +28,8 @@
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Html" %}
-                        <li><a href="/categories/htnk" class="">HTML ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "Css" %}
-                        <li><a href="/categories/css" class="">CSS ({{category[1].size}})</a></li>
+                    {% if category[0] == "Html_css" %}
+                        <li><a href="/categories/html_css" class="">HTML ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
